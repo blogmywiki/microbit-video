@@ -31,12 +31,12 @@ two boxes, one empty, one filled, some text and a counter.
 ![wiring diagram](https://raw.githubusercontent.com/blogmywiki/microbit-video/main/images/wiring-diagram-white.png)
 
 ## How to modify and recompile the code
-Urgh. Not that easy. What I did was go to https://ide.mbed.com/, log in, I dragged these 3 files into a new project:
+Not that easy. What I did was go to https://ide.mbed.com/, log in, I dragged Kevin's original 3 files into a new project:
 - main.cpp
 - font.h
 - microbit.lib
 
-I tinkered with the code, clicked compile to get a HEX file I could drag and drop on to a V1 micro:bit's MICROBIT drive.
+I tinkered with the code in the Mbed IDE, clicked compile to get a HEX file I could drag and drop on to a V1 micro:bit's MICROBIT drive.
 
 ## Can I write a program to do this in Python or MakeCode?
 Short answer: no.
