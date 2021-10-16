@@ -5,6 +5,9 @@ This is a project created by Kevin Moonlight. You can view a video here https://
 
 What I've done is compile this into a HEX file so you can easily try it out yourself.
 
+![screenshot](https://raw.githubusercontent.com/blogmywiki/microbit-video/main/images/screenshot.jpg)
+
+
 ## What it does
 It generated a demo of some boxes and text as a black and white NTSC video image you can view on a TV.
 
