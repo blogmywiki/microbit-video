@@ -35,6 +35,7 @@ Urgh. Not that easy. What I did was go to https://ide.mbed.com/, log in, I dragg
 - main.cpp
 - font.h
 - microbit.lib
+
 I tinkered with the code, clicked compile to get a HEX file I could drag and drop on to a V1 micro:bit's MICROBIT drive.
 
 ## Can I write a program to do this in Python or MakeCode?
@@ -50,3 +51,4 @@ You can read about how to turn a V1 micro:bit and a PS/2 keyboard into a program
 - Video thermometer
 - Screen that prints any radio messages it receives
 - Version for V2 micro:bit
+- Custom font if I can design or find a better 5x7 font
