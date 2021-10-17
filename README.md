@@ -13,7 +13,7 @@ It generates a demo of some boxes, text and a live counter as a black and white 
 
 ## What you need to try it out
 - A V1 micro:bit, USB lead and battery pack
-- A 680 ohm resistor
+- A 680 ohm resistor (and possibly a 1k resistor - see below)
 - Some crocodile clip leads
 - A phono / RCA plug with bare wires
 - A TV that can show a composite NTSC video signal. A cheap TV I bought in the UK was fine.
@@ -23,11 +23,13 @@ It generates a demo of some boxes, text and a live counter as a black and white 
 ## How to build it
 - Flash the HEX file to a V1 micro:bit. Unplug it from the computer and attach a battery pack (see below)
 - Connect GND pin on the micro:bit to the shield pin on the phono/RCA video plug.
-- Connect pin 1 on the micro:bit to the centre pin on the video plug.
+- Connect pin 1 on the micro:bit to the centre pin on the video plug. Add a 1k resistor in series here if your picture has poor contrast with the black looking very grey.
 - Connect pin 0 to a 680 ohm resistor, and then to the centre pin.
 - Connect the plug to the composite video input of a TV and select the relevant AV input. You should see two boxes, one empty, one filled, some text and a counter.
 
 This works much better for me with the micro:bit powered off batteries. If I powered it off the TV's USB socket or a mains socket on the same earth ring as the TV, the contrast was very poor. I'm grateful for Dave Ames in suggesting a ground loop is probably to blame: https://en.wikipedia.org/wiki/Ground_loop_(electricity)
+
+I'm also grateful to @WiFiSheep for suggesting putting a 1k resistor in line with the red wire from pin 1 in this diagram, this seems to cure the ground loop issue.
 
 ![wiring diagram](https://raw.githubusercontent.com/blogmywiki/microbit-video/main/images/wiring-diagram-white.png)
 
