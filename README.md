@@ -27,8 +27,7 @@ It generates a demo of some boxes, text and a live counter as a black and white 
 - Connect pin 0 to a 680 ohm resistor, and then to the centre pin.
 - Connect the plug to the composite video input of a TV and select the relevant AV input. You should see two boxes, one empty, one filled, some text and a counter.
 
-For some reason this worked for me much better with the micro:bit powered off batteries. If I powered it off the TV's USB socket or a mains socket on the same earth ring as the TV, the contrast was very poor. I expect an improvement to the circuit would fix that, I'd be grateful for suggestions.
-
+This works much better for me with the micro:bit powered off batteries. If I powered it off the TV's USB socket or a mains socket on the same earth ring as the TV, the contrast was very poor. I'm grateful for Dave Ames in suggesting a ground loop is probably to blame: https://en.wikipedia.org/wiki/Ground_loop_(electricity)
 
 ![wiring diagram](https://raw.githubusercontent.com/blogmywiki/microbit-video/main/images/wiring-diagram-white.png)
 
