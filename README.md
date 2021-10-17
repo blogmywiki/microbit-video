@@ -27,7 +27,7 @@ It generates a demo of some boxes, text and a live counter as a black and white 
 - Connect pin 0 to a 680 ohm resistor, and then to the centre pin.
 - Connect the plug to the composite video input of a TV and select the relevant AV input. You should see two boxes, one empty, one filled, some text and a counter.
 
-For some reason this worked for me much better with the micro:bit powered off batteries. If I powered it off the TV's USB socket or a mains socket on the same earth ring as the TV, the contrast was very poor. I expect an improvement to the circuit would fix that, grateful for suggestions.
+For some reason this worked for me much better with the micro:bit powered off batteries. If I powered it off the TV's USB socket or a mains socket on the same earth ring as the TV, the contrast was very poor. I expect an improvement to the circuit would fix that, I'd be grateful for suggestions.
 
 
 ![wiring diagram](https://raw.githubusercontent.com/blogmywiki/microbit-video/main/images/wiring-diagram-white.png)
@@ -54,4 +54,5 @@ You can read about how to turn a V1 micro:bit and a PS/2 keyboard into a program
 - Screen that prints any radio messages it receives
 - Version for V2 micro:bit
 - Custom font if I can design or find a better 5x7 font
+- Programmable Small BASIC computer made with 2 micro:bits and a PS/2 keyboard
 - Pong!
