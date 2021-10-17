@@ -9,10 +9,10 @@ What I've done is add a filled box and compile it into a HEX file so you can eas
 
 
 ## What it does
-It generated a demo of some boxes and text as a black and white NTSC video image you can view on a TV.
+It generates a demo of some boxes, text and a live counter as a black and white NTSC video image you can view on a TV.
 
 ## What you need to try it out
-- A V1 micro:bit
+- A V1 micro:bit, USB lead and battery pack
 - A 680 ohm resistor
 - Some crocodile clip leads
 - A phono / RCA plug with bare wires
@@ -21,12 +21,14 @@ It generated a demo of some boxes and text as a black and white NTSC video image
 ![wiring photo](https://raw.githubusercontent.com/blogmywiki/microbit-video/main/images/wiring-photo.jpg)
 
 ## How to build it
-Flash the HEX file to a V1 micro:bit.
-Connect GND pin on the micro:bit to the shield pin on the phono/RCA video plug.
-Connect pin 1 on the micro:bit to the centre pin on the video plug.
-Connect pin 0 to a 680 ohm resistor, and then to the centre pin.
-Connect the plug to the composite video input of a TV and select the relevant AV input. You should see 
-two boxes, one empty, one filled, some text and a counter.
+- Flash the HEX file to a V1 micro:bit. Unplug it from the computer and attach a battery pack*
+- Connect GND pin on the micro:bit to the shield pin on the phono/RCA video plug.
+- Connect pin 1 on the micro:bit to the centre pin on the video plug.
+- Connect pin 0 to a 680 ohm resistor, and then to the centre pin.
+- Connect the plug to the composite video input of a TV and select the relevant AV input. You should see two boxes, one empty, one filled, some text and a counter.
+
+* for some reason this worked for me much better with the micro:bit powered off batteries. If I powered it off the TV's USB socket or a mains socket on the same earth ring as the TV, the contrast was very poor. I expect an improvement to the circuit would fix that, grateful for suggestions.
+
 
 ![wiring diagram](https://raw.githubusercontent.com/blogmywiki/microbit-video/main/images/wiring-diagram-white.png)
 
@@ -52,3 +54,4 @@ You can read about how to turn a V1 micro:bit and a PS/2 keyboard into a program
 - Screen that prints any radio messages it receives
 - Version for V2 micro:bit
 - Custom font if I can design or find a better 5x7 font
+- Pong!
