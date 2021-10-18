@@ -51,9 +51,10 @@ Not a huge amount on its own, but I think getting video from a micro:bit is pret
 You can read about how to turn a V1 micro:bit and a PS/2 keyboard into a programmable computer here: http://www.suppertime.co.uk/blogmywiki/2021/05/video-from-a-microbit/
 
 ## Next steps
-- Video thermometer
-- Screen that prints any radio messages it receives
+- Video thermometer (may need V2 micro:bit, possible memory issues on V1)
+- Screen that prints any radio messages it receives (ditto)
 - Version for V2 micro:bit
 - Custom font if I can design or find a better 5x7 font
 - Programmable Small BASIC computer made with 2 micro:bits and a PS/2 keyboard
+- Use the micro:bit's built-in 5x5 font to save memory (V1 micro:bit)
 - Pong!
